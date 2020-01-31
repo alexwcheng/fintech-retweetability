@@ -1,0 +1,170 @@
+{
+    "data": [
+        {
+            "attachments": {
+                "media_keys": [
+                    "3_1223038022867935232"
+                ]
+            },
+            "author_id": "25073877",
+            "created_at": "2020-01-31T00:19:23.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 57,
+                        "end": 65,
+                        "tag": "KAG2020"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 68,
+                        "end": 91,
+                        "url": "https://t.co/4YCo01XYCn",
+                        "expanded_url": "https://twitter.com/realDonaldTrump/status/1223038027234267137/photo/1",
+                        "display_url": "pic.twitter.com/4YCo01XYCn"
+                    }
+                ]
+            },
+            "id": "1223038027234267137",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "stats": {
+                "retweet_count": 2406,
+                "reply_count": 1346,
+                "like_count": 8517,
+                "quote_count": 192
+            },
+            "text": "Great poll in Iowa, where I just landed for a Big Rally! #KAG2020🇺🇸 https://t.co/4YCo01XYCn",
+            "format": "detailed"
+        },
+        {
+            "author_id": "783214",
+            "created_at": "2020-01-30T20:00:13.000Z",
+            "id": "1222972807639896064",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+            "stats": {
+                "retweet_count": 28532,
+                "reply_count": 3049,
+                "like_count": 77352,
+                "quote_count": 4354
+            },
+            "text": "Yes, it's still January",
+            "format": "detailed"
+        },
+        {
+            "author_id": "409486555",
+            "created_at": "2020-01-20T13:56:40.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 227,
+                        "end": 234,
+                        "tag": "MLKDay"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 256,
+                        "end": 279,
+                        "url": "https://t.co/cBTTn9yuTH",
+                        "expanded_url": "http://whenweallvote.org",
+                        "display_url": "whenweallvote.org"
+                    },
+                    {
+                        "start": 280,
+                        "end": 303,
+                        "url": "https://t.co/xYqQFNY5kT",
+                        "expanded_url": "https://twitter.com/whenweallvote/status/1219255758879166466",
+                        "display_url": "twitter.com/whenweallvote/…"
+                    }
+                ]
+            },
+            "id": "1219257438949597185",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "referenced_tweets": [
+                {
+                    "type": "quoted",
+                    "id": "1219255758879166466"
+                }
+            ],
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "stats": {
+                "retweet_count": 10107,
+                "reply_count": 508,
+                "like_count": 44343,
+                "quote_count": 253
+            },
+            "text": "To honor Dr. King's legacy, we all can play a role in ensuring our friends and family make their voices heard in every election. By sitting out, we're allowing others to make decisions for us. \n\nHelp register your community on #MLKDay and throughout 2020: https://t.co/cBTTn9yuTH https://t.co/xYqQFNY5kT",
+            "format": "detailed"
+        },
+        {
+            "author_id": "14130366",
+            "created_at": "2020-01-26T05:08:25.000Z",
+            "entities": {
+                "mentions": [
+                    {
+                        "start": 135,
+                        "end": 145,
+                        "username": "Googleorg"
+                    },
+                    {
+                        "start": 159,
+                        "end": 165,
+                        "username": "NAACP"
+                    }
+                ],
+                "urls": [
+                    {
+                        "start": 261,
+                        "end": 284,
+                        "url": "https://t.co/SwZbVZGqOW",
+                        "expanded_url": "http://g.co/blackhistorymonth",
+                        "display_url": "g.co/blackhistorymo…"
+                    }
+                ]
+            },
+            "id": "1221298825786089472",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+            "stats": {
+                "retweet_count": 153,
+                "reply_count": 56,
+                "like_count": 1068,
+                "quote_count": 8
+            },
+            "text": "This Black History Month, we’ll be celebrating some of the most-searched moments &amp; individuals in America. We’re also making a $3M @Googleorg grant to the @NAACP ACT-SO program, supporting future history makers in STEM, humanities, business &amp; the arts. https://t.co/SwZbVZGqOW",
+            "format": "detailed"
+        },
+        {
+            "author_id": "1636590253",
+            "created_at": "2020-01-27T15:15:10.000Z",
+            "entities": {
+                "hashtags": [
+                    {
+                        "start": 249,
+                        "end": 273,
+                        "tag": "HolocaustRemembranceDay"
+                    }
+                ]
+            },
+            "id": "1221813908576464896",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+            "stats": {
+                "retweet_count": 678,
+                "reply_count": 119,
+                "like_count": 5556,
+                "quote_count": 32
+            },
+            "text": "Today, we remember the millions of lives lost. Tomorrow and always, we vow to reject cruelty so that it never happens again. “History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.”— Maya Angelou #HolocaustRemembranceDay",
+            "format": "detailed"
+        }
+    ]
+}

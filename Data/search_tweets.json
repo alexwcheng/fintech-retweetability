@@ -1,0 +1,678 @@
+{
+    "statuses": [
+        {
+            "created_at": "Fri Jan 31 00:22:27 +0000 2020",
+            "id": 1223038801519562752,
+            "id_str": "1223038801519562752",
+            "text": "RT @jvgraz: While centrists clutch their pearls over Bernie's fictional oppo research file, just imagine this video played on a loop during…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "jvgraz",
+                        "name": "Plain Ol' Johnny Graz",
+                        "id": 16959075,
+                        "id_str": "16959075",
+                        "indices": [
+                            3,
+                            10
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 975373644959449089,
+                "id_str": "975373644959449089",
+                "name": "theMAOrganic",
+                "screen_name": "MaOrganic",
+                "location": "",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 5,
+                "friends_count": 119,
+                "listed_count": 0,
+                "created_at": "Sun Mar 18 14:09:33 +0000 2018",
+                "favourites_count": 1078,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 857,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": true,
+                "default_profile": true,
+                "default_profile_image": true,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Thu Jan 30 05:23:03 +0000 2020",
+                "id": 1222752060040286209,
+                "id_str": "1222752060040286209",
+                "text": "While centrists clutch their pearls over Bernie's fictional oppo research file, just imagine this video played on a… https://t.co/9jtvCBgZug",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [],
+                    "urls": [
+                        {
+                            "url": "https://t.co/9jtvCBgZug",
+                            "expanded_url": "https://twitter.com/i/web/status/1222752060040286209",
+                            "display_url": "twitter.com/i/web/status/1…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "in_reply_to_screen_name": null,
+                "user": {
+                    "id": 16959075,
+                    "id_str": "16959075",
+                    "name": "Plain Ol' Johnny Graz",
+                    "screen_name": "jvgraz",
+                    "location": "California, USA",
+                    "description": "Veteran of NeXT, Apple, and Pixar. Creator of XCode. Parrot whisperer. Jazz pianist. Kitchen guru.  Chief Technical Officer to the @Sema4Texas campaign.",
+                    "url": "https://t.co/qxZrYDmib4",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/qxZrYDmib4",
+                                    "expanded_url": "http://semafortexas.com",
+                                    "display_url": "semafortexas.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 21259,
+                    "friends_count": 9316,
+                    "listed_count": 290,
+                    "created_at": "Fri Oct 24 23:41:31 +0000 2008",
+                    "favourites_count": 94696,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": false,
+                    "verified": false,
+                    "statuses_count": 124061,
+                    "lang": null,
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "FFFFFF",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                    "profile_background_tile": false,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/995535838426492928/htFBNJYh_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/995535838426492928/htFBNJYh_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/16959075/1558992627",
+                    "profile_link_color": "58A6FF",
+                    "profile_sidebar_border_color": "EEEEEE",
+                    "profile_sidebar_fill_color": "F6F6F6",
+                    "profile_text_color": "333333",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": null,
+                    "follow_request_sent": null,
+                    "notifications": null,
+                    "translator_type": "none"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": true,
+                "quoted_status_id": 1222684242364289030,
+                "quoted_status_id_str": "1222684242364289030",
+                "quoted_status": {
+                    "created_at": "Thu Jan 30 00:53:34 +0000 2020",
+                    "id": 1222684242364289030,
+                    "id_str": "1222684242364289030",
+                    "text": "This is so fucking funny. Worth watching the whole thing but even just the first segment is devastating. https://t.co/mNEu0Hf1pU",
+                    "truncated": false,
+                    "entities": {
+                        "hashtags": [],
+                        "symbols": [],
+                        "user_mentions": [],
+                        "urls": [],
+                        "media": [
+                            {
+                                "id": 1222540279783350272,
+                                "id_str": "1222540279783350272",
+                                "indices": [
+                                    105,
+                                    128
+                                ],
+                                "media_url": "http://pbs.twimg.com/amplify_video_thumb/1222540279783350272/img/KUXsvDeeWOL1KiNJ.jpg",
+                                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1222540279783350272/img/KUXsvDeeWOL1KiNJ.jpg",
+                                "url": "https://t.co/mNEu0Hf1pU",
+                                "display_url": "pic.twitter.com/mNEu0Hf1pU",
+                                "expanded_url": "https://twitter.com/shaunking/status/1222579400664850432/video/1",
+                                "type": "photo",
+                                "sizes": {
+                                    "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                    },
+                                    "medium": {
+                                        "w": 1200,
+                                        "h": 675,
+                                        "resize": "fit"
+                                    },
+                                    "small": {
+                                        "w": 680,
+                                        "h": 383,
+                                        "resize": "fit"
+                                    },
+                                    "large": {
+                                        "w": 1280,
+                                        "h": 720,
+                                        "resize": "fit"
+                                    }
+                                },
+                                "source_status_id": 1222579400664850432,
+                                "source_status_id_str": "1222579400664850432",
+                                "source_user_id": 755113,
+                                "source_user_id_str": "755113"
+                            }
+                        ]
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "id": 1222540279783350272,
+                                "id_str": "1222540279783350272",
+                                "indices": [
+                                    105,
+                                    128
+                                ],
+                                "media_url": "http://pbs.twimg.com/amplify_video_thumb/1222540279783350272/img/KUXsvDeeWOL1KiNJ.jpg",
+                                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1222540279783350272/img/KUXsvDeeWOL1KiNJ.jpg",
+                                "url": "https://t.co/mNEu0Hf1pU",
+                                "display_url": "pic.twitter.com/mNEu0Hf1pU",
+                                "expanded_url": "https://twitter.com/shaunking/status/1222579400664850432/video/1",
+                                "type": "video",
+                                "sizes": {
+                                    "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                    },
+                                    "medium": {
+                                        "w": 1200,
+                                        "h": 675,
+                                        "resize": "fit"
+                                    },
+                                    "small": {
+                                        "w": 680,
+                                        "h": 383,
+                                        "resize": "fit"
+                                    },
+                                    "large": {
+                                        "w": 1280,
+                                        "h": 720,
+                                        "resize": "fit"
+                                    }
+                                },
+                                "source_status_id": 1222579400664850432,
+                                "source_status_id_str": "1222579400664850432",
+                                "source_user_id": 755113,
+                                "source_user_id_str": "755113",
+                                "video_info": {
+                                    "aspect_ratio": [
+                                        16,
+                                        9
+                                    ],
+                                    "duration_millis": 292170,
+                                    "variants": [
+                                        {
+                                            "content_type": "application/x-mpegURL",
+                                            "url": "https://video.twimg.com/amplify_video/1222540279783350272/pl/fPm1I0SUQBOfvI5y.m3u8?tag=13"
+                                        },
+                                        {
+                                            "bitrate": 832000,
+                                            "content_type": "video/mp4",
+                                            "url": "https://video.twimg.com/amplify_video/1222540279783350272/vid/640x360/Ns6o9zq6vQ6ufTdr.mp4?tag=13"
+                                        },
+                                        {
+                                            "bitrate": 2176000,
+                                            "content_type": "video/mp4",
+                                            "url": "https://video.twimg.com/amplify_video/1222540279783350272/vid/1280x720/KGEa9Obmvm5DEmH-.mp4?tag=13"
+                                        },
+                                        {
+                                            "bitrate": 288000,
+                                            "content_type": "video/mp4",
+                                            "url": "https://video.twimg.com/amplify_video/1222540279783350272/vid/480x270/DJkZD6E-4aDOsJ4f.mp4?tag=13"
+                                        }
+                                    ]
+                                },
+                                "additional_media_info": {
+                                    "title": "In 1987 Joe Biden was proven to be a pathological liar",
+                                    "description": "In 1987, when Joe Biden was running for President, he did not get caught in a lie - he got caught in at least 9 lies. \n\nThey engulfed his entire campaign and almost derailed his political career. ",
+                                    "call_to_actions": {
+                                        "visit_site": {
+                                            "url": "https://shaunking.substack.com/p/2-truths-and-31-lies-joe-biden-has"
+                                        }
+                                    },
+                                    "embeddable": true,
+                                    "monetizable": false
+                                }
+                            }
+                        ]
+                    },
+                    "metadata": {
+                        "iso_language_code": "en",
+                        "result_type": "recent"
+                    },
+                    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "in_reply_to_screen_name": null,
+                    "user": {
+                        "id": 277880167,
+                        "id_str": "277880167",
+                        "name": "Eoin Higgins",
+                        "screen_name": "EoinHiggins_",
+                        "location": "",
+                        "description": "It's pronounced \"Owen.\" Senior Editor, Staff Writer @commondreams. Opinions my own. eoin@commondreams.org eoinhiggins@gmail.com",
+                        "url": null,
+                        "entities": {
+                            "description": {
+                                "urls": []
+                            }
+                        },
+                        "protected": false,
+                        "followers_count": 28596,
+                        "friends_count": 953,
+                        "listed_count": 481,
+                        "created_at": "Wed Apr 06 06:09:53 +0000 2011",
+                        "favourites_count": 53400,
+                        "utc_offset": null,
+                        "time_zone": null,
+                        "geo_enabled": false,
+                        "verified": true,
+                        "statuses_count": 15961,
+                        "lang": null,
+                        "contributors_enabled": false,
+                        "is_translator": false,
+                        "is_translation_enabled": false,
+                        "profile_background_color": "000000",
+                        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+                        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+                        "profile_background_tile": false,
+                        "profile_image_url": "http://pbs.twimg.com/profile_images/1138438735329189889/4s9Gq8tm_normal.jpg",
+                        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1138438735329189889/4s9Gq8tm_normal.jpg",
+                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/277880167/1580005185",
+                        "profile_link_color": "7FDBB6",
+                        "profile_sidebar_border_color": "000000",
+                        "profile_sidebar_fill_color": "000000",
+                        "profile_text_color": "000000",
+                        "profile_use_background_image": false,
+                        "has_extended_profile": true,
+                        "default_profile": false,
+                        "default_profile_image": false,
+                        "following": null,
+                        "follow_request_sent": null,
+                        "notifications": null,
+                        "translator_type": "none"
+                    },
+                    "geo": null,
+                    "coordinates": null,
+                    "place": null,
+                    "contributors": null,
+                    "is_quote_status": false,
+                    "retweet_count": 7281,
+                    "favorite_count": 21741,
+                    "favorited": false,
+                    "retweeted": false,
+                    "possibly_sensitive": false,
+                    "lang": "en"
+                },
+                "retweet_count": 193,
+                "favorite_count": 501,
+                "favorited": false,
+                "retweeted": false,
+                "possibly_sensitive": false,
+                "lang": "en"
+            },
+            "is_quote_status": true,
+            "quoted_status_id": 1222684242364289030,
+            "quoted_status_id_str": "1222684242364289030",
+            "retweet_count": 193,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        },
+        {
+            "created_at": "Fri Jan 31 00:22:26 +0000 2020",
+            "id": 1223038795181723648,
+            "id_str": "1223038795181723648",
+            "text": "RT @MattMinerXVX: @landis_melinda @shaunking @JoeBiden Would you rather Trump’s team expose these lies in the General election or Shaun do…",
+            "truncated": false,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [
+                    {
+                        "screen_name": "MattMinerXVX",
+                        "name": "Matt Miner",
+                        "id": 3439061,
+                        "id_str": "3439061",
+                        "indices": [
+                            3,
+                            16
+                        ]
+                    },
+                    {
+                        "screen_name": "landis_melinda",
+                        "name": "11CatsAgainstNazis&Hidy🌈OTB",
+                        "id": 4260487493,
+                        "id_str": "4260487493",
+                        "indices": [
+                            18,
+                            33
+                        ]
+                    },
+                    {
+                        "screen_name": "shaunking",
+                        "name": "Shaun King",
+                        "id": 755113,
+                        "id_str": "755113",
+                        "indices": [
+                            34,
+                            44
+                        ]
+                    },
+                    {
+                        "screen_name": "JoeBiden",
+                        "name": "Joe Biden (Text Join to 30330)",
+                        "id": 939091,
+                        "id_str": "939091",
+                        "indices": [
+                            45,
+                            54
+                        ]
+                    }
+                ],
+                "urls": []
+            },
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 1207899384366555136,
+                "id_str": "1207899384366555136",
+                "name": "dr.nec",
+                "screen_name": "drnec3",
+                "location": "",
+                "description": "",
+                "url": null,
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 8,
+                "friends_count": 60,
+                "listed_count": 0,
+                "created_at": "Fri Dec 20 05:44:16 +0000 2019",
+                "favourites_count": 1487,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": false,
+                "verified": false,
+                "statuses_count": 173,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": false,
+                "profile_background_color": "F5F8FA",
+                "profile_background_image_url": null,
+                "profile_background_image_url_https": null,
+                "profile_background_tile": false,
+                "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+                "profile_link_color": "1DA1F2",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": true,
+                "default_profile_image": true,
+                "following": null,
+                "follow_request_sent": null,
+                "notifications": null,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweeted_status": {
+                "created_at": "Thu Jan 30 12:16:16 +0000 2020",
+                "id": 1222856048677138435,
+                "id_str": "1222856048677138435",
+                "text": "@landis_melinda @shaunking @JoeBiden Would you rather Trump’s team expose these lies in the General election or Sha… https://t.co/Ngkc8IaO6I",
+                "truncated": true,
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "user_mentions": [
+                        {
+                            "screen_name": "landis_melinda",
+                            "name": "11CatsAgainstNazis&Hidy🌈OTB",
+                            "id": 4260487493,
+                            "id_str": "4260487493",
+                            "indices": [
+                                0,
+                                15
+                            ]
+                        },
+                        {
+                            "screen_name": "shaunking",
+                            "name": "Shaun King",
+                            "id": 755113,
+                            "id_str": "755113",
+                            "indices": [
+                                16,
+                                26
+                            ]
+                        },
+                        {
+                            "screen_name": "JoeBiden",
+                            "name": "Joe Biden (Text Join to 30330)",
+                            "id": 939091,
+                            "id_str": "939091",
+                            "indices": [
+                                27,
+                                36
+                            ]
+                        }
+                    ],
+                    "urls": [
+                        {
+                            "url": "https://t.co/Ngkc8IaO6I",
+                            "expanded_url": "https://twitter.com/i/web/status/1222856048677138435",
+                            "display_url": "twitter.com/i/web/status/1…",
+                            "indices": [
+                                117,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                "in_reply_to_status_id": 1222851423756603393,
+                "in_reply_to_status_id_str": "1222851423756603393",
+                "in_reply_to_user_id": 4260487493,
+                "in_reply_to_user_id_str": "4260487493",
+                "in_reply_to_screen_name": "landis_melinda",
+                "user": {
+                    "id": 3439061,
+                    "id_str": "3439061",
+                    "name": "Matt Miner",
+                    "screen_name": "MattMinerXVX",
+                    "location": "South Queens, NYC",
+                    "description": "NY Times featured comic writer/editor - Ringo Nominated. Field Director #NY5 @Shaniyat2020, Dog rescuer, @GWAR’s comic pal, aging punk, he/him Opinions=mine. 🌹",
+                    "url": "https://t.co/HgX8FSYCzU",
+                    "entities": {
+                        "url": {
+                            "urls": [
+                                {
+                                    "url": "https://t.co/HgX8FSYCzU",
+                                    "expanded_url": "http://MattMinerXVX.com",
+                                    "display_url": "MattMinerXVX.com",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ]
+                        },
+                        "description": {
+                            "urls": []
+                        }
+                    },
+                    "protected": false,
+                    "followers_count": 5307,
+                    "friends_count": 1329,
+                    "listed_count": 152,
+                    "created_at": "Wed Apr 04 16:47:03 +0000 2007",
+                    "favourites_count": 42388,
+                    "utc_offset": null,
+                    "time_zone": null,
+                    "geo_enabled": false,
+                    "verified": true,
+                    "statuses_count": 42848,
+                    "lang": null,
+                    "contributors_enabled": false,
+                    "is_translator": false,
+                    "is_translation_enabled": false,
+                    "profile_background_color": "FFFFFF",
+                    "profile_background_image_url": "http://abs.twimg.com/images/themes/theme6/bg.gif",
+                    "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme6/bg.gif",
+                    "profile_background_tile": true,
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/1099034619868049410/NShmkNIF_normal.jpg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/1099034619868049410/NShmkNIF_normal.jpg",
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/3439061/1573991490",
+                    "profile_link_color": "000000",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "FFFFFF",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": true,
+                    "has_extended_profile": true,
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "following": null,
+                    "follow_request_sent": null,
+                    "notifications": null,
+                    "translator_type": "regular"
+                },
+                "geo": null,
+                "coordinates": null,
+                "place": null,
+                "contributors": null,
+                "is_quote_status": false,
+                "retweet_count": 7,
+                "favorite_count": 250,
+                "favorited": false,
+                "retweeted": false,
+                "lang": "en"
+            },
+            "is_quote_status": false,
+            "retweet_count": 7,
+            "favorite_count": 0,
+            "favorited": false,
+            "retweeted": false,
+            "lang": "en"
+        }
+    ],
+    "search_metadata": {
+        "completed_in": 0.032,
+        "max_id": 1223038801519562752,
+        "max_id_str": "1223038801519562752",
+        "next_results": "?max_id=1223038795181723647&q=General%20Election&count=2&include_entities=1&result_type=recent",
+        "query": "General+Election",
+        "refresh_url": "?since_id=1223038801519562752&q=General%20Election&result_type=recent&include_entities=1",
+        "count": 2,
+        "since_id": 0,
+        "since_id_str": "0"
+    }
+}
