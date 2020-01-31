@@ -1,0 +1,143 @@
+{
+    "data": [
+        {
+            "created_at": "2009-03-18T13:46:38.000Z",
+            "description": "45th President of the United States of America🇺🇸",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "start": 0,
+                            "end": 23,
+                            "url": "https://t.co/OMxB0x7xC5",
+                            "expanded_url": "http://www.Instagram.com/realDonaldTrump",
+                            "display_url": "Instagram.com/realDonaldTrump"
+                        }
+                    ]
+                }
+            },
+            "id": "25073877",
+            "location": "Washington, DC",
+            "most_recent_tweet_id": "1223038027234267137",
+            "name": "Donald J. Trump",
+            "pinned_tweet_id": "1222655839573565440",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg",
+            "protected": false,
+            "stats": {
+                "followers_count": 71873110,
+                "following_count": 47,
+                "tweet_count": 48500,
+                "listed_count": 113961
+            },
+            "url": "https://t.co/OMxB0x7xC5",
+            "username": "realDonaldTrump",
+            "verified": true,
+            "format": "detailed"
+        },
+        {
+            "created_at": "2007-02-20T14:35:54.000Z",
+            "description": "What’s happening?!",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "start": 0,
+                            "end": 23,
+                            "url": "https://t.co/TAXQpsHa5X",
+                            "expanded_url": "https://about.twitter.com/",
+                            "display_url": "about.twitter.com"
+                        }
+                    ]
+                }
+            },
+            "id": "783214",
+            "location": "Everywhere",
+            "most_recent_tweet_id": "1222972807639896064",
+            "name": "Twitter",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/1111729635610382336/_65QFl7B_normal.png",
+            "protected": false,
+            "stats": {
+                "followers_count": 57135266,
+                "following_count": 1,
+                "tweet_count": 12909,
+                "listed_count": 90552
+            },
+            "url": "https://t.co/TAXQpsHa5X",
+            "username": "Twitter",
+            "verified": true,
+            "format": "detailed"
+        },
+        {
+            "created_at": "2011-11-10T20:13:01.000Z",
+            "description": "Girl from the South Side and former First Lady. Wife, mother, dog lover. Always hugger-in-chief.",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "start": 0,
+                            "end": 23,
+                            "url": "https://t.co/0UVvR5L6vm",
+                            "expanded_url": "http://obama.org",
+                            "display_url": "obama.org"
+                        }
+                    ]
+                }
+            },
+            "id": "409486555",
+            "location": "Washington, DC",
+            "most_recent_tweet_id": "1219257438949597185",
+            "name": "Michelle Obama",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/1192811236242722816/-r8d4_d3_normal.jpg",
+            "protected": false,
+            "stats": {
+                "followers_count": 14331923,
+                "following_count": 18,
+                "tweet_count": 1225,
+                "listed_count": 24897
+            },
+            "url": "https://t.co/0UVvR5L6vm",
+            "username": "MichelleObama",
+            "verified": true,
+            "format": "detailed"
+        },
+        {
+            "created_at": "2008-03-12T05:51:53.000Z",
+            "description": "CEO,  Google and Alphabet",
+            "id": "14130366",
+            "most_recent_tweet_id": "1221298825786089472",
+            "name": "Sundar Pichai",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/864282616597405701/M-FEJMZ0_normal.jpg",
+            "protected": false,
+            "stats": {
+                "followers_count": 2636216,
+                "following_count": 337,
+                "tweet_count": 1316,
+                "listed_count": 6747
+            },
+            "url": "",
+            "username": "sundarpichai",
+            "verified": true,
+            "format": "detailed"
+        },
+        {
+            "created_at": "2013-07-31T22:41:25.000Z",
+            "description": "Apple CEO  Auburn 🏀 🏈 Duke 🏀 National Parks 🏞️ “Life's most persistent and urgent question is, 'What are you doing for others?'” - MLK",
+            "id": "1636590253",
+            "location": "Cupertino",
+            "most_recent_tweet_id": "1221813908576464896",
+            "name": "Tim Cook",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/1194113737092935681/63O1znGw_normal.jpg",
+            "protected": false,
+            "stats": {
+                "followers_count": 11677552,
+                "following_count": 68,
+                "tweet_count": 976,
+                "listed_count": 21430
+            },
+            "url": "",
+            "username": "tim_cook",
+            "verified": true,
+            "format": "detailed"
+        }
+    ]
+}
