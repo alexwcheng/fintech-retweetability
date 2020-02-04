@@ -24,6 +24,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LassoCV, Lasso, Ridge, LinearRegression, LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import SGDClassifier
-from sklearn.model_selection import RandomizedSearchCV, cross_val_score
+from sklearn.model_selection import RandomizedSearchCV, cross_val_score, cross_validate
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 import scipy.stats as stats
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.ensemble import RandomForestClassifier
