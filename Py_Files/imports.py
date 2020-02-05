@@ -20,12 +20,13 @@ from wordcloud import WordCloud
 import random
 from collections import Counter
 from statsmodels.stats.outliers_influence import variance_inflation_factor
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV, RandomizedSearchCV, cross_val_score, cross_validate
 from sklearn.linear_model import LassoCV, Lasso, Ridge, LinearRegression, LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import SGDClassifier
-from sklearn.model_selection import RandomizedSearchCV, cross_val_score, cross_validate
-from sklearn.metrics import roc_curve, auc, confusion_matrix
+from sklearn.metrics import roc_curve, auc, confusion_matrix, roc_auc_score, precision_recall_curve, precision_recall_fscore_support
 import scipy.stats as stats
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier
+from imblearn.over_sampling import SMOTE, ADASYN
+from pprint import pprint
