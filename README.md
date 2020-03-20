@@ -53,14 +53,9 @@ We decided on **10 terms** targeting **Financial Tech (Fintech)** that we used t
 
 The data collection process required a large number of API requests via token pagination at 100 results per request. After collecting all of the tweet data (Tweets), the user ids and tweet ids were harvested, and used to request user information (Users) and detailed tweet metrics (Deets) for each collected tweet. All of this data was cleaned, transformed into the most appropriate datatypes, and merged into one dataframe.
 
-Next, we needed to filter the data. A confounding aspect of our dataset is that we are getting tweets from users with a wide range of follower counts. Of course, follower count and retweets are correlated. As more people follow an account, the account generally gets more attention. For example, if an influencer tweets about something fintech related, versus an average Joe, obviously the influencer's post would be retweeted more. We wanted to eliminate this effect as much as possible in our study. **To control for this, we only considered tweets by users that have a follower count similar to a startup company. Based on our research, this is somewhere between 1,000 and 10,000 followers.**
+Next, we needed to filter the data. A confounding aspect of our dataset is that we are getting tweets from users with a wide range of follower counts. Of course, follower count and retweets are correlated. As more people follow an account, the account generally gets more attention. For example, if an influencer (let's say, Barack Obama) tweets about something fintech related, versus an average Joe, obviously the influencer's post would be retweeted more. We wanted to eliminate this effect as much as possible in our study. **To control for this, we only considered tweets by users that have a follower count similar to a startup company. Based on our research, this is somewhere between 1,000 and 10,000 followers.**
 
 This filtering process reduced our dataset from nearly 40,000 tweets to roughly 12,000 tweets, but still left us a decent chunk of data to work with. 
-
-#
-### Predictor Variables
-
-![Twitter_Features](/Images/Slides/Twitter_Features.png)
 
 #
 ### Feature Engineering
@@ -71,8 +66,9 @@ In addition, we generated new graphics-related categorical variables for predict
 
 Most importantly, as part of the feature engineering process - we needed to create our dependent variable **"Retweet Class"** that we could use to make predictions. This allowed us to identify if a tweet had a high number of retweets (1000+), a moderate number of retweets (100 - 1000), or a low number of retweets (< 100).
 
-At the end of the feature engineering process, we had **29 features**. (28 predictor variables and 1 target variable.)
+At the end of the feature engineering process, we had **29 features**. (28 predictor variables and 1 target variable.) 
 
+#
 ### Data Preprocessing
 
 Since we had lots of numerical data that is measured on different scales, it was important to **standardize** this data using StandardScalar. This standardization allows the model to train on a "level playing field", so that no one variable's numerical scale has an unfair advantage or disadvantage compared to the others as the model adjusts weights during training. We also used Scikit-learn to "Train, Test, Split" our data using an 80/20 split, which allowed us to train our model sufficiently before making predictions.
