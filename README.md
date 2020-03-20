@@ -103,10 +103,65 @@ We also performed cross-validation on our model to ensure our predictions on the
 #
 ### Model Results
 
+**Base Random Forest Model**
+
+Weighted Precision Score - Base Model, ADASYN Oversampled Training Data
+83.2%
+
+Precision Score By Class - Base Model, ADASYN Oversampled Training Data
+Class 0: 0-100 Retweets: 93.4%
+Class 1: 100-1000 Retweets: 39.4%
+Class 2: 1000+ Retweets: 30.4%
+
+**Hyperparameter Tuned Random Forest Model**
+
+Weighted Precision Score - Tuned Model, ADASYN Oversampled Training Data
+82.4%
+
+Precision Score By Class - Tuned Model, ADASYN Oversampled Training Data
+Class 0: 0-100 Retweets: 93.7%
+Class 1: 100-1000 Retweets: 30.9%
+Class 2: 1000+ Retweets: 28.8%
+
+**Observations**
+
+- The base model outperformed the tuned model in weighted precision, as well as precision by class.
+- Perhaps we did not try a wide enough range of hyperparameters to tune our Random Forest Classifier.
+- Or perhaps we got really lucky with our base model parameters!
+- Either way, both models correctly predict the retweet class for about 4 out of every 5 tweets in our dataset.
+- In both cases, the model is much more precise in predicting Class 0 (Low Retweet) data.
+- In both cases, the model is not very precise at predicting Class 1 (Mid Retweet) or Class 2 (High Retweet) data.
+
+**Feature Importances**
+
+The top 3 most important features are clear from our model:
+- "Tweet Character Length"
+- "Tweet Favourite Count" (This is the same thing as "Likes")
+- "User Listed Count"
+
 ![Feature_Importances](/Images/Slides/Feature_Importances.png)
 
 #
 ### Conclusions
 
+To increase retweetability of tweets on Twitter, here are 3 recommendations to our fintech startup client:
+
+- **Focus on keeping "Tweet Character Length" around 140 characters.** 
+- **Find ways to increase the "Like" count on that tweet.** (A bit obvious. "Likes" probably correlates with "Retweets".)
+- **Find ways to increase the company Twitter account being "Listed" by other Twitter users.**
+
 #
 ### Future Work
+
+- Collect more tweets, with better control over the time the tweets were posted.
+   - (Ex: Older than 1 day, but less than 7.)
+- Try splitting “retweet classes” in different ways to improve predictions.
+   - (Ex: Class 0: 1-10 Retweets, Class 1: 10-50 Retweets, Class 2: 50+ Retweets)
+- Analyze tweets by users with a different range of followers.
+   - (Ex: 100K - 200K)
+- Account for UNICODE character counting algorithm on Twitter.
+   - (Ex:Laughing Emoji = U+1F923)
+- Engineer other possible predicting features from Twitter data.
+   - (Ex: Emojis, hashtags, etc…)
+- Use Natural Language Processing to extract meaning and emotion from each tweet as additional engineered features.
+   - (Ex: is the tweet informative, passionate, declarative, etc...)
