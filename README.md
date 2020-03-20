@@ -1,4 +1,4 @@
-# Fintech Retweetability
+# Twitter Business
 
 ![Title_Slide](/Images/Slides/Title_Slide.png)
 
