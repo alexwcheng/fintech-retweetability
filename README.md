@@ -1,4 +1,4 @@
-# Twitter Business
+# Fintech Retweetability
 This README.md lists project members, goals, responsibilities, and a summary of the files in the repository.
 
 ### Project File Summary
