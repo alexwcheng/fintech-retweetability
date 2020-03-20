@@ -49,6 +49,8 @@ Our dataset comes from the [Twitter API](https://developer.twitter.com/en/docs/a
 
 We decided on 10 terms targeting Financial Tech (Fintech) that we used to retrieve tweets that are most related to Fintech news, products, and services. We decided to collect up to **5,000 tweets per query term.** Sometimes, the number of results ran out before we reached 5,000 tweets for a particular query term. 
 
+![Fintech_Twitter_Query_Terms](/Images/Slides/Fintech_Twitter_Query_Terms.png)
+
 The data collection process required a large number of API requests via token pagination at 100 results per request. After collecting all of the tweets, the user ids and tweet ids were harvested, and used to request user information and detailed tweet metrics for each collected tweet. Finally, the data was cleaned, transformed, and merged into one dataframe.
 
 
