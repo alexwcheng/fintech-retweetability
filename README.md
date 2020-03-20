@@ -15,6 +15,11 @@
 
    - <b>[Alex Cheng](https://github.com/alexwcheng)</b>
    - <b>[Stuart Murphy](https://github.com/thespud56)</b>
+   
+#
+### Project Responsibilities
+
+   -  All project responsibilities were shared equally between <b>[Alex Cheng](https://github.com/alexwcheng)</b> and <b>[Stuart Murphy](https://github.com/thespud56)</b>.
 
 #
 ### Project Scenario
@@ -47,8 +52,3 @@ Our goal is to help our client identify the  most important attributes around a 
 8. Assess results, make recommendations and topics for further investigation.
 
 9. Create a presentation of our findings for the client.
-
-#
-### Project Responsibilities
-
-   -  All project responsibilities were shared equally between <b>[Alex Cheng](https://github.com/alexwcheng)</b> and <b>[Stuart Murphy](https://github.com/thespud56)</b>.
