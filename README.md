@@ -47,33 +47,48 @@ Our dataset comes from the [Twitter API](https://developer.twitter.com/en/docs/a
 2. **Tweets**
 3. **Tweet Details (Deets)**
 
-We decided on 10 terms targeting Financial Tech (Fintech) that we used to retrieve tweets that are most related to Fintech news, products, and services. We decided to collect up to **5,000 tweets per query term.** Sometimes, the number of results ran out before we reached 5,000 tweets for a particular query term. 
+We decided on **10 terms** targeting **Financial Tech (Fintech)** that we used to retrieve tweets that are most related to Fintech news, products, and services. We decided to collect up to **5,000 tweets per query term.** Sometimes, the number of results ran out before we reached 5,000 tweets for a particular query term. 
 
 ![Fintech_Twitter_Query_Terms](/Images/Slides/Fintech_Twitter_Query_Terms.png)
 
-The data collection process required a large number of API requests via token pagination at 100 results per request. After collecting all of the tweets, the user ids and tweet ids were harvested, and used to request user information and detailed tweet metrics for each collected tweet. Finally, the data was cleaned, transformed, and merged into one dataframe.
-
-
-### Random Forest Model
-
-### Conclusions
-
-### Future Work
+The data collection process required a large number of API requests via token pagination at 100 results per request. After collecting all of the tweet data (Tweets), the user ids and tweet ids were harvested, and used to request user information (Users) and detailed tweet metrics (Deets) for each collected tweet. Finally, all of this data was cleaned, transformed, and merged into one dataframe.
 
 #
-### Methodology 
+### Feature Engineering
 
+Creating new features to predict retweets included some exploratory data analysis to understand more about our predictors. In addition, we used hot one encoding to generate new categorical variables for prediction (for example, text color and user background color).
 
-3. Feature Engineering. This includes some exploratory analysis to understand more about our predictors, hot one encode certain categorical variables (text color and user background color), and creating new features to help predictability. Most importantly, we needed to create an independent variable that we could make predictions about. This variable was rewteet 'class', that allowed us to identify if a tweet is highly retweeted (+ 1000), decently retweet (100 - 1000, or poorly retweeted (< 100).
+Most importantly, as part of the feature engineering process - we needed to create our dependent variable **"Retweet Class"** that we could use to make predictions. This allowed us to identify if a tweet had a high number of retweets **(1000+)**, a moderate number of retweets **(100 - 1000)**, or a low number of retweets **(< 100).**
 
-4. Data Preprocessing. With many numerical variables existing on different scales, it is important to standardize them to enable us to model appropriately. We also "Train, Test, Split" our data (80/20 split), which will allow us to train our model sufficiently before making predictions.
+### Data Preprocessing
 
-5. Model Selection. We decided to use a random forest for our dataset. The primary reason for selecting random forests: i) We are working with lot of columns. ii) Feature importance is a priority. iii) Our dataset is not too large and so computational cost is not overbearing.
+Since we had lots of numerical data that is measured on different scales, it was important to **standardize** this data using StandardScalar. This standardization allows the model to train on a "level playing field", so that no one variable's numerical scale has an unfair advantage or disadvantage compared to the others as the model adjusts weights during training. We also used Scikit-learn to "Train, Test, Split" our data using an 80/20 split, which allowed us to train our model sufficiently before making predictions.
 
-6. Train model and hypertune accordingly. Parameters that we hypertuned were max depth, number of estimators, max features, min samples leaf, min samples split, and bootstrapping. We also cross validated our model to ensure our prediction on the traing set wasn't an anomaly.
+#
+### Random Forest Model
 
-7. Make a prediction & establish features that were most important in our data.
+We decided to use a **Random Forest** algorithm for modeling, for several reasons: 
 
-8. Assess results, make recommendations and topics for further investigation.
+1. Clear interpretability of feature importances was a priority. 
+2. We had a lot of features to work with, and wanted to really just find the top 5 or 10 features that mattered most.
+3. The dataset was not prohibitively large, therefore the computational cost of a Random Foreset model is not overbearing.
 
-9. Create a presentation of our findings for the client.
+We trained the model using 80% of our dataset and performed hyperparameter tuning using RandomizedSearchCV with further refinement using GridSearchCV. The tuning process included the following hyperparameters: 
+
+- max depth
+- number of estimators
+- max features
+- min samples leaf
+- min samples split
+- bootstrapping 
+
+We also performed cross-validation on our model to ensure our predictions on the training set wasn't an anomaly.
+
+#
+### Model Results
+
+#
+### Conclusions
+
+#
+### Future Work
