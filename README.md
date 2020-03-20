@@ -27,9 +27,7 @@
 #
 ### Project Scenario
 
-Our client is a FinTech company looking to scale their customer acquisition efforts. They know that their target market are people who care deeply about their finances, and actively discuss finances in their everyday lives. They are also tech-savvy and are open to trying new digital & mobile experiences when interacting with their money (early adopters). Our client wishes to use their marketing budget wisely. They are aware that the best kind of marketing is 'word of mouth' marketing and want to produce content that will most likely get shared and retweeted by their followers. An example client might be a financial tech company like Alluva with only a few thousand followers, as seen below.
-
-![Influencer_Versus_Startup_2](/Images/Slides/Influencer_Versus_Startup_2.png)
+Our client is a FinTech company looking to scale their customer acquisition efforts. They know that their target market are people who care deeply about their finances, and actively discuss finances in their everyday lives. They are also tech-savvy and are open to trying new digital & mobile experiences when interacting with their money (early adopters). Our client wishes to use their marketing budget wisely. They are aware that the best kind of marketing is 'word of mouth' marketing and want to produce content that will most likely get shared and retweeted by their followers. 
 
 #
 ### Project Goals
@@ -53,9 +51,11 @@ We decided on **10 terms** targeting **Financial Tech (Fintech)** that we used t
 
 The data collection process required a large number of API requests via token pagination at 100 results per request. After collecting all of the tweet data (Tweets), the user ids and tweet ids were harvested, and used to request user information (Users) and detailed tweet metrics (Deets) for each collected tweet. All of this data was cleaned, transformed into the most appropriate datatypes, and merged into one dataframe.
 
-Next, we needed to filter the data. A confounding aspect of our dataset is that we are getting tweets from users with a wide range of follower counts. Of course, follower count and retweets are correlated. As more people follow an account, the account generally gets more attention. For example, if an influencer (let's say, Barack Obama) tweets about something fintech related, versus an average Joe, obviously the influencer's post would be retweeted more. We wanted to eliminate this effect as much as possible in our study. **To control for this, we only considered tweets by users that have a follower count similar to a startup company. Based on our research, this is somewhere between 1,000 and 10,000 followers.**
+Next, we needed to filter the data. A confounding aspect of our dataset is that we are getting tweets from users with a wide range of follower counts. Of course, follower count and retweets are correlated. As more people follow an account, the account generally gets more attention. For example, if an influencer (let's say, Barack Obama) tweets about something fintech related, versus an average Joe, obviously the influencer's post would be retweeted more. 
 
-This filtering process reduced our dataset from nearly 40,000 tweets to roughly 12,000 tweets, but still left us a decent chunk of data to work with. 
+We wanted to eliminate this effect as much as possible in our study. **To control for this, we only considered tweets by users that have a follower count similar to a startup company. Based on our research, this is somewhere between 1,000 and 10,000 followers.** This filtering process reduced our dataset from nearly 40,000 tweets to roughly 12,000 tweets, but still left us a decent chunk of data to work with. 
+
+![Influencer_Versus_Startup_2](/Images/Slides/Influencer_Versus_Startup_2.png)
 
 #
 ### Feature Engineering
