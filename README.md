@@ -71,7 +71,8 @@ At the end of the feature engineering process, we had **29 features**. (28 predi
 #
 ### Exploratory Data Analysis
 ![Retweet_Histogram](/Images/Slides/Retweet_Histogram.png)
-
+![Retweet_Histogram_Zoomed_In](/Images/Slides/Retweet_Histogram_Zoomed_In.png)
+![Retweet_CDF](/Images/Slides/Retweet_CDF.png)
 ![Retweet_CDF_Zoomed_In](/Images/Slides/Retweet_CDF_Zoomed_In.png)
 
 #
