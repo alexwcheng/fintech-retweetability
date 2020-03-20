@@ -157,14 +157,14 @@ To increase retweetability of tweets on Twitter, here are 3 recommendations to o
 ### Future Work
 
 - **Collect more tweets, with better control over the time the tweets were posted.**
-   - (Ex: Older than 1 day, but less than 7.)
+   - Ex: Older than 1 day, but less than 7.
 - **Try splitting “retweet classes” in different ways to improve predictions.**
-   - (Ex: Class 0: 1-10 Retweets, Class 1: 10-50 Retweets, Class 2: 50+ Retweets)
+   - Ex: Class 0: 1-10 Retweets, Class 1: 10-50 Retweets, Class 2: 50+ Retweets.
 - **Analyze tweets by users with a different range of followers.**
-   - (Ex: 100K - 200K)
+   - Ex: 100K - 200K
 - **Account for UNICODE character counting algorithm on Twitter.**
-   - (Ex:Laughing Emoji = U+1F923)
+   - Ex: Laughing Emoji = U+1F923
 - **Engineer other possible predicting features from Twitter data.**
-   - (Ex: Emojis, hashtags, etc…)
-- **Use Natural Language Processing to extract meaning and emotion from each tweet as additional engineered features.**
-   - (Ex: is the tweet informative, passionate, declarative, etc...)
+   - Ex: Emojis, hashtags, etc…
+- **Use Natural Language Processing to extract meaning and emotion from tweets as engineered features.**
+   - Ex: is the tweet informative, passionate, declarative, etc...
