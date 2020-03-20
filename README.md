@@ -27,14 +27,17 @@
 #
 ### Project Scenario
 
-Our client is a FinTech company looking to scale their customer acquisition efforts. They know that their target market are people who care deeply about their finances, and actively discuss finances in their everyday lives. They are also tech-savvy and are open to trying new digital & mobile experiences when interacting with their money (early adopters). Our client wishes to use their marketing budget wisely. They are aware that the best kind of marketing is 'word of mouth' marketing and want to produce content that will most likely get shared and retweeted by their followers. An example client might be a financial tech company like Alluva with only a few thousand followers, as seen in the example below.
+Our client is a FinTech company looking to scale their customer acquisition efforts. They know that their target market are people who care deeply about their finances, and actively discuss finances in their everyday lives. They are also tech-savvy and are open to trying new digital & mobile experiences when interacting with their money (early adopters). Our client wishes to use their marketing budget wisely. They are aware that the best kind of marketing is 'word of mouth' marketing and want to produce content that will most likely get shared and retweeted by their followers. An example client might be a financial tech company like Alluva with only a few thousand followers, as seen below.
 
 ![Fintech_Example_Twitter_User](/Images/Slides/Fintech_Example_Twitter_User.png)
 
 #
 ### Project Goals
 
-Our goal is to help our client identify the  most important attributes around a tweet and a twitter user that will lead to the most retweets. Our target (dependent variable) is retweets.
+The goal of this project is to help our client identify **the most important attributes** around a tweet and a twitter user that will lead to the most retweets. Our target (dependent variable) is the **number of retweets,** split into 3 classes:
+1. 0-100 Retweets
+2. 100-1000 Retweets
+3. 1000+ Retweets
 
 #
 ### Methodology 
