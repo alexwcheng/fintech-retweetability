@@ -147,21 +147,24 @@ The top 3 most important features are clear from our model:
 To increase retweetability of tweets on Twitter, here are 3 recommendations to our fintech startup client:
 
 - **Focus on keeping "Tweet Character Length" around 140 characters.** 
-- **Find ways to increase the "Like" count on that tweet.** (A bit obvious. "Likes" probably correlates with "Retweets".)
+   - Note that Twitter has a maximum character count of 280 characters, so 140 is right in the middle.
+- **Find ways to increase the "Like" count on that tweet.** 
+   - This is a bit obvious. "Likes" probably correlates with "Retweets".
 - **Find ways to increase the company Twitter account being "Listed" by other Twitter users.**
+   - A “List” groups followed accounts, like organizing music into playlists. “Listed” means you were put in someone's list.
 
 #
 ### Future Work
 
-- Collect more tweets, with better control over the time the tweets were posted.
+- **Collect more tweets, with better control over the time the tweets were posted.**
    - (Ex: Older than 1 day, but less than 7.)
-- Try splitting “retweet classes” in different ways to improve predictions.
+- **Try splitting “retweet classes” in different ways to improve predictions.**
    - (Ex: Class 0: 1-10 Retweets, Class 1: 10-50 Retweets, Class 2: 50+ Retweets)
-- Analyze tweets by users with a different range of followers.
+- **Analyze tweets by users with a different range of followers.**
    - (Ex: 100K - 200K)
-- Account for UNICODE character counting algorithm on Twitter.
+- **Account for UNICODE character counting algorithm on Twitter.**
    - (Ex:Laughing Emoji = U+1F923)
-- Engineer other possible predicting features from Twitter data.
+- **Engineer other possible predicting features from Twitter data.**
    - (Ex: Emojis, hashtags, etc…)
-- Use Natural Language Processing to extract meaning and emotion from each tweet as additional engineered features.
+- **Use Natural Language Processing to extract meaning and emotion from each tweet as additional engineered features.**
    - (Ex: is the tweet informative, passionate, declarative, etc...)
