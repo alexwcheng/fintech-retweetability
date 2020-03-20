@@ -144,7 +144,7 @@ The top 3 most important features are clear from our model:
 #
 ### Conclusions
 
-To increase retweetability of tweets on Twitter, here are 3 recommendations to our fintech startup client:
+To increase retweetability, here are 3 recommendations to our fintech startup client:
 
 - **Focus on keeping "Tweet Character Length" around 140 characters.** 
    - Note that Twitter has a maximum character count of 280 characters, so 140 is right in the middle.
