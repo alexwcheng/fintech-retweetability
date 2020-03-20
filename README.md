@@ -35,17 +35,17 @@ Our client is a FinTech company looking to scale their customer acquisition effo
 ### Project Goals
 
 The goal of this project is to help our client identify **the most important attributes** around a tweet and a twitter user that will lead to the most retweets. Our target (dependent variable) is the **number of retweets,** split into 3 classes:
-1. 0-100 Retweets
-2. 100-1000 Retweets
-3. 1000+ Retweets
+**1. 0-100 Retweets**
+**2. 100-1000 Retweets**
+**3. 1000+ Retweets**
 
 #
 ### Data
 
 Our dataset comes from the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index), using 3 endpoints: 
-1. Users
-2. Tweets
-3. Tweet Details (Deets)
+**1. Users**
+**2. Tweets**
+**3. Tweet Details (Deets)**
 
 We decided on 10 terms targeting Financial Tech (Fintech) that we used to retrieve tweets that are most related to Fintech news, products, and services. We decided to collect up to **5,000 tweets per query term.** Sometimes, the number of results ran out before we reached 5,000 tweets for a particular query term. 
 
