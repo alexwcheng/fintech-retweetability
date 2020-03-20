@@ -64,9 +64,16 @@ We were curious if the text length in a user's bio, or the text length of a twee
 
 In addition, we generated new graphics-related categorical variables for prediction. Using one-hot-encoding, we created six new features using the 3 most popular "user profile text colors" and 3 most popular "user profile background colors" that we found in our dataset.
 
-Most importantly, as part of the feature engineering process - we needed to create our dependent variable **"Retweet Class"** that we could use to make predictions. This allowed us to identify if a tweet had a high number of retweets (1000+), a moderate number of retweets (100 - 1000), or a low number of retweets (< 100).
+Most importantly, as part of the feature engineering process - we needed to create our target variable **"Retweet Class"** that we could use to make predictions. This allowed us to identify if a tweet had a high number of retweets (1000+), a moderate number of retweets (100 - 1000), or a low number of retweets (< 100).
 
 At the end of the feature engineering process, we had **29 features**. (28 predictor variables and 1 target variable.) 
+
+#
+### Exploratory Data Analysis
+![Retweet_Histogram](/Images/Slides/Retweet_Histogram.png)
+![Retweet_Histogram_Zoomed_In](/Images/Slides/Retweet_Histogram_Zoomed_In.png)
+![Retweet_CDF](/Images/Slides/Retweet_CDF.png)
+![Retweet_CDF_Zoomed_In](/Images/Slides/Retweet_CDF_Zoomed_In.png)
 
 #
 ### Data Preprocessing
@@ -84,17 +91,19 @@ We decided to use a **Random Forest** algorithm for modeling, for several reason
 
 We trained the model using 80% of our dataset and performed hyperparameter tuning using RandomizedSearchCV with further refinement using GridSearchCV. The tuning process included the following hyperparameters: 
 
-- max depth
-- number of estimators
-- max features
-- min samples leaf
-- min samples split
-- bootstrapping 
+- Max Depth
+- Number Of Estimators
+- Max Features
+- Min Samples Leaf
+- Min Samples Split
+- Bootstrapping 
 
 We also performed cross-validation on our model to ensure our predictions on the training set wasn't an anomaly.
 
 #
 ### Model Results
+
+![Feature_Importances](/Images/Slides/Feature_Importances.png)
 
 #
 ### Conclusions
