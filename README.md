@@ -105,21 +105,21 @@ We also performed cross-validation on our model to ensure our predictions on the
 
 **Base Random Forest Model**
 
-- **Weighted Precision Score - Base Model, ADASYN Oversampled Training Data**
-- 83.2%
-- **Precision Score By Class - Base Model, ADASYN Oversampled Training Data**
-- Class 0: 0-100 Retweets: 93.4%
-- Class 1: 100-1000 Retweets: 39.4%
-- Class 2: 1000+ Retweets: 30.4%
+- Weighted Precision Score - Base Model, ADASYN Oversampled Training Data
+   - 83.2%
+- Precision Score By Class - Base Model, ADASYN Oversampled Training Data
+   - Class 0: 0-100 Retweets: 93.4%
+   - Class 1: 100-1000 Retweets: 39.4%
+   - Class 2: 1000+ Retweets: 30.4%
 
 **Hyperparameter Tuned Random Forest Model**
 
-- **Weighted Precision Score - Tuned Model, ADASYN Oversampled Training Data**
-- 82.4%
-- **Precision Score By Class - Tuned Model, ADASYN Oversampled Training Data**
-- Class 0: 0-100 Retweets: 93.7%
-- Class 1: 100-1000 Retweets: 30.9%
-- Class 2: 1000+ Retweets: 28.8%
+- Weighted Precision Score - Tuned Model, ADASYN Oversampled Training Data
+   - 82.4%
+- Precision Score By Class - Tuned Model, ADASYN Oversampled Training Data
+   - Class 0: 0-100 Retweets: 93.7%
+   - Class 1: 100-1000 Retweets: 30.9%
+   - Class 2: 1000+ Retweets: 28.8%
 
 **Observations**
 
