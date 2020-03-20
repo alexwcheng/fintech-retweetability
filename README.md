@@ -40,12 +40,29 @@ The goal of this project is to help our client identify **the most important att
 3. 1000+ Retweets
 
 #
+### Data
+
+Our dataset comes from the [Twitter API](https://developer.twitter.com/en/docs/api-reference-index), using 3 endpoints: 
+1. Users
+2. Tweets
+3. Tweet Details (Deets)
+
+We decided on 10 terms targeting Financial Tech (Fintech) that we used to retrieve tweets that are most related to Fintech news, products, and services. We decided to collect up to **5,000 tweets per query term.** Sometimes, the number of results ran out before we reached 5,000 tweets for a particular query term. 
+
+![Fintech_Twitter_Query_Terms](/Images/Slides/Fintech_Twitter_Query_Terms.png)
+
+The data collection process required a large number of API requests via token pagination at 100 results per request. After collecting all of the tweets, the user ids and tweet ids were harvested, and used to request user information and detailed tweet metrics for each collected tweet. Finally, the data was cleaned, transformed, and merged into one dataframe.
+
+
+### Random Forest Model
+
+### Conclusions
+
+### Future Work
+
+#
 ### Methodology 
 
-
-1. Find and select a source of data to draw from and analyze (Twitter API - 3 Endpoints: Users, Tweets, Tweet Details):(https://developer.twitter.com/en/docs/api-reference-index)
-
-2. Merge datasets and clean appropriately.
 
 3. Feature Engineering. This includes some exploratory analysis to understand more about our predictors, hot one encode certain categorical variables (text color and user background color), and creating new features to help predictability. Most importantly, we needed to create an independent variable that we could make predictions about. This variable was rewteet 'class', that allowed us to identify if a tweet is highly retweeted (+ 1000), decently retweet (100 - 1000, or poorly retweeted (< 100).
 
