@@ -1,6 +1,6 @@
 # Fintech Retweetability
-This README.md lists project members, goals, responsibilities, and a summary of the files in the repository.
 
+#
 ### Project File Summary
 
    - <b>[README.md](README.md)</b> - a summary of all contents in this repository.
@@ -10,20 +10,24 @@ This README.md lists project members, goals, responsibilities, and a summary of 
    - <b>[/Project_Prompt](/Project_Prompt)</b> - The prompt for this project.
    - <b>[/Python_Files](/Python_Files)</b> - .py files loaded / imported in the Jupyter Notebooks.
    - <b>[/Final_Presentation](/Final_Presentation)</b> - A non-technical presentation of our project.
-   
+
+#
 ### Project Members
 
    - <b>[Alex Cheng](https://github.com/alexwcheng)</b>
    - <b>[Stuart Murphy](https://github.com/thespud56)</b>
 
+#
 ### Project Scenario
 
 Our client is a FinTech company looking to scale their customer acquisition efforts. They know that their target market are people who care deeply about their finances, and actively discuss finances in their everyday lives. They are also tech-savvy and are open to trying new digital & mobile experiences when interacting with their money (early adopters). Our client wishes to use their marketing budget wisely. They are aware that the best kind of marketing is 'word of mouth' marketing and want to produce content that will most likely get shared and retweeted by their followers.
 
+#
 ### Project Goals
 
 Our goal is to help our client identify the  most important attributes around a tweet and a twitter user that will lead to the most retweets. Our target (dependent variable) is retweets.
 
+#
 ### Methodology 
 
 
@@ -45,6 +49,7 @@ Our goal is to help our client identify the  most important attributes around a 
 
 9. Create a presentation of our findings for the client.
 
+#
 ### Project Responsibilities
 
    -  All project responsibilities were shared equally between <b>[Alex Cheng](https://github.com/alexwcheng)</b> and <b>[Stuart Murphy](https://github.com/thespud56)</b>.
