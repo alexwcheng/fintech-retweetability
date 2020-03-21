@@ -90,7 +90,7 @@ To get a better look at what's going on closer to zero retweets in the CDF, we z
 #
 ### Data Preprocessing
 
-Since we had lots of numerical data that is measured on different scales, it was important to **standardize** this data using StandardScalar. This standardization allows the model to train on a "level playing field", so that no one variable's numerical scale has an unfair advantage or disadvantage compared to the others as the model adjusts weights during training. We also used Scikit-learn to "Train, Test, Split" our data using an 80/20 split, which allowed us to train our model sufficiently before making predictions.
+Since we had lots of numerical data that is measured on different scales, it was important to **standardize** this data using StandardScalar. This standardization allows the model to train on a "level playing field", so that no one variable's numerical scale has an unfair advantage or disadvantage compared to the others as the model adjusts weights during training. We also used Scikit-learn to train/test split our data using an 80/20 split, which allowed us to train our model sufficiently before making predictions.
 
 #
 ### Random Forest Model
