@@ -70,9 +70,21 @@ At the end of the feature engineering process, we had **29 features**. (28 predi
 
 #
 ### Exploratory Data Analysis
+
+We wanted to understand the distribution of "retweets" in our dataset. So we plotted a histogram to get a sense for the most frequently occuring number of retweets. From the histogram, it seems that the vast majority of tweets only have a retweet count less than 1,000.
+
 ![Retweet_Histogram](/Images/Slides/Retweet_Histogram.png)
+
+Next, we zoomed-in to the histogram and increased the number of bins to get a more precise understanding of retweet counts. With this cropped histogram, we can see that a very small amount of the tweets in our dataset have more than 20 retweets. The vast majority have 20 retweets or less.
+
 ![Retweet_Histogram_Zoomed_In](/Images/Slides/Retweet_Histogram_Zoomed_In.png)
+
+To see precisely what percentage of tweets in our dataset had a low number of retweets, we plotted a cumulative distribution function. The CDF shows that in our dataset, there is a very high likelihood that one would come across a tweet with close to zero retweets.
+
 ![Retweet_CDF](/Images/Slides/Retweet_CDF.png)
+
+To get a better look at what's going on closer to zero retweets in the CDF, we zoomed-in to the left side of the plot. Upon closer inspection, it looks like there is roughly a 30% probability of finding a tweet with zero retweets in our dataset. However, 80% of our dataset contains tweets that have 70 retweets or less.
+
 ![Retweet_CDF_Zoomed_In](/Images/Slides/Retweet_CDF_Zoomed_In.png)
 
 #
