@@ -1,6 +1,4 @@
-# Twitter Business
-
-![Title_Slide](/Images/Slides/Title_Slide.png)
+![Title_Slide_2](/Images/Slides/Title_Slide_2.png)
 
 #
 ### Project File Summary
