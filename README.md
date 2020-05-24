@@ -71,6 +71,8 @@ At the end of the feature engineering process, we had **29 features**. (28 predi
 
 A Tableau dashboard was created to get a comprehensive understanding of the categorical and numerical data, all in one place. A static preview of this dashboard is displayed below. The fully interactive Tableau dashboard can be explored here: https://public.tableau.com/profile/alexander.cheng#!/vizhome/Fintech-Retweetability/FintechRetweetability?publish=yes
 
+![Fintech_Retweetability_Tableau_Dashboard.jpg](/Images/Fintech_Retweetability_Tableau_Dashboard.jpg)
+
 We wanted to understand the distribution of "retweets" in our dataset. So we plotted a histogram to get a sense for the most frequently occuring number of retweets. From the histogram, it seems that the vast majority of tweets only have a retweet count less than 1,000.
 
 ![Retweet_Histogram](/Images/Slides/Retweet_Histogram.png)
